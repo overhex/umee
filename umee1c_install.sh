@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 read -p "Enter node name: " UMEE_NODENAME
 echo 'export UMEE_NODENAME='\"${UMEE_NODENAME}\" >> $HOME/.bash_profile
 
