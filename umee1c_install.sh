@@ -2,7 +2,7 @@
 
 echo 'This will install umee node in umeevengers-1c chain'
 echo 'Provide you node name and wait for installation ends'
-
+echo ''
 read -p "Umee node name: " UMEE_NODENAME
 echo 'export UMEE_NODENAME='\"${UMEE_NODENAME}\" >> $HOME/.bash_profile
 
@@ -72,7 +72,9 @@ sudo systemctl restart umeed
 
 echo ''
 echo 'Install finished!'
+echo ''
 echo 'For environments run' 
 echo 'source $HOME/.bash_profile'
+echo ''
 echo 'For log view run'
 echo 'journalctl -u umeed -f'
