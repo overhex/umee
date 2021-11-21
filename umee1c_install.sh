@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo 'This will install umee node on umeevengers-1c chain'
-echo 'Provide you node name and wait for installation ends'
+echo '✨This will install umee node on umeevengers-1c chain✨'
+echo '🌌Provide you node name and wait for installation ends🌌'
 echo ''
 echo 'Umee node name:'
 read UMEE_NODENAME
