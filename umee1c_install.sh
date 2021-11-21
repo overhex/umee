@@ -65,7 +65,7 @@ sudo systemctl enable umeed
 sudo systemctl restart umeed
 
 echo ''
-echo 'Install finished!'
+echo 'Umee node install finished!✨✨✨ '
 echo ''
 echo 'For environments run' 
 echo 'source $HOME/.bash_profile'
